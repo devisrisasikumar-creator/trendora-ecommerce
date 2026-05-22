@@ -23,7 +23,7 @@ function App() {
 
   const fetchProducts = () => {
 
-    fetch('http://127.0.0.1:5000/products')
+    fetch('https://trendora-ecommerce-4hy8.onrender.com/products')
 
       .then((response) => response.json())
 
@@ -51,7 +51,7 @@ function App() {
 
   const addProduct = () => {
 
-    fetch('http://127.0.0.1:5000/add-product', {
+    fetch('https://trendora-ecommerce-4hy8.onrender.com/add-product', {
 
       method: 'POST',
 
@@ -81,7 +81,7 @@ function App() {
 
   const signup = () => {
 
-    fetch('http://127.0.0.1:5000/signup', {
+    fetch('https://trendora-ecommerce-4hy8.onrender.com/signup', {
 
       method: 'POST',
 
@@ -105,7 +105,7 @@ function App() {
 
   const login = () => {
 
-    fetch('http://127.0.0.1:5000/login', {
+    fetch('https://trendora-ecommerce-4hy8.onrender.com/login', {
 
       method: 'POST',
 
@@ -129,7 +129,7 @@ function App() {
 
   const placeOrder = () => {
 
-    fetch('http://127.0.0.1:5000/place-order', {
+    fetch('https://trendora-ecommerce-4hy8.onrender.com/place-order', {
 
       method: 'POST',
 
